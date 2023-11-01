@@ -1,0 +1,21 @@
+*{
+    border: .1rem solid lime;
+}
+/* COLOR */
+
+.bg-color-dark{
+    background-color: #2D3E50; 
+}
+
+.bg-color-green{
+   background-color:#18BC9C;
+}
+
+[class*=col-]{
+    height: 10rem;
+}
+
+/* HEADER */
+header{
+    color: white;
+}
