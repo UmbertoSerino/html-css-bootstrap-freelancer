@@ -11,6 +11,12 @@
    background-color:#18BC9C;
 }
 
+.bg-color-gray{
+    background-color: #3A546D;
+}
+
+
+
 [class*=col-]{
     height: 10rem;
 }
@@ -18,4 +24,9 @@
 /* HEADER */
 header{
     color: white;
+}
+
+.container div{
+    margin: 0 auto;
+    text-align: center;
 }
