@@ -27,7 +27,8 @@ Extra extra large	xxl	≥1400px */
 
 
 /* HEADER */
-.my_color_header{
+.my_color_header,
+.my_color_footer{
     color: white;
 }
 
