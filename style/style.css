@@ -36,11 +36,6 @@ Extra extra large	xxl	≥1400px */
 
 /* HEADER */
 
-.my_container{
-    max-width: 438px;
-    margin: 0 auto;
-}
-
 .my_img-avatar{
     max-width: 18rem
 }
@@ -70,14 +65,24 @@ footer i{
 }
 
 
+@media screen and (min-width:576px) {
+    .my_container{
+        max-width: 576px;
+        margin: 0 auto;
+    } 
+}
+
 @media screen and (min-width:768px) {
     .my_container{
-        max-width: 850px;
+        max-width: 768px;
+        margin: 0 auto;
     } 
+
 }
 
 @media screen and (min-width:992px) {
     .my_container{
         max-width: 1000px;
+        margin: 0 auto;
     } 
 }
