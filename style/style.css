@@ -37,7 +37,7 @@ Extra extra large	xxl	≥1400px */
 /* HEADER */
 
 .my_img-avatar{
-    max-width: 18rem
+    max-width: 16rem
 }
 
 header img{
@@ -60,8 +60,22 @@ main .cards img{
 
 /* FOOTER */
 footer i{
-    width: 2rem;
-    height: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.my_rule{
+    height: 2px;
+    width: 50px;
+    margin-top: .8rem;
+}
+
+.my_rule-black{
+    background-color: black;
+}
+
+.my_rule-white{
+    background-color: white;
 }
 
 
@@ -70,6 +84,7 @@ footer i{
         max-width: 576px;
         margin: 0 auto;
     } 
+
 }
 
 @media screen and (min-width:768px) {
