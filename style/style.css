@@ -36,6 +36,8 @@ header section.my_bg-color-dark {
     text-transform: uppercase;
 }
 
+/* MAIN */
+
 main .cards img{
     width: 100%;
 }
@@ -44,6 +46,11 @@ main .cards img{
     color: white;
 }
 
+/* FOOTER */
+footer i{
+    width: 2rem;
+    height: 2rem;
+}
 
 
 @media screen and (min-width:
