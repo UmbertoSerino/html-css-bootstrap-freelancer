@@ -25,11 +25,28 @@ Extra extra large	xxl	≥1400px */
     background-color: #3A546D;
 }
 
+.my_color-green{
+    color: #1ABC9C;
+}
 
-/* HEADER */
 .my_color_header,
 .my_color_footer{
     color: white;
+}
+
+/* HEADER */
+
+.my_container{
+    max-width: 438px;
+    margin: 0 auto;
+}
+
+.my_img-avatar{
+    max-width: 18rem
+}
+
+header img{
+    width: 100%
 }
 
 header section.my_bg-color-dark {
@@ -53,7 +70,14 @@ footer i{
 }
 
 
-@media screen and (min-width:
-) {
-    
+@media screen and (min-width:768px) {
+    .my_container{
+        max-width: 850px;
+    } 
+}
+
+@media screen and (min-width:992px) {
+    .my_container{
+        max-width: 1000px;
+    } 
 }
