@@ -18,6 +18,7 @@ Extra extra large	xxl	≥1400px */
 
 .my_bg-color-green{
    background-color:#18BC9C;
+    color: white;
 }
 
 .my_bg-color-gray{
@@ -32,6 +33,14 @@ Extra extra large	xxl	≥1400px */
 
 header section.my_bg-color-dark {
     text-transform: uppercase;
+}
+
+main .cards img{
+    width: 100%;
+}
+
+.my_button{
+    color: white;
 }
 
 
