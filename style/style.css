@@ -1,32 +1,42 @@
 *{
-    border: .1rem solid lime;
+    /* border: .1rem solid lime; */
 }
+
+/* X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+
+
 /* COLOR */
 
-.bg-color-dark{
+.my_bg-color-dark{
     background-color: #2D3E50; 
 }
 
-.bg-color-green{
+.my_bg-color-green{
    background-color:#18BC9C;
 }
 
-.bg-color-gray{
+.my_bg-color-gray{
     background-color: #3A546D;
 }
 
 
-
-[class*=col-]{
-    height: 10rem;
-}
-
 /* HEADER */
-header{
+.my_color_header{
     color: white;
 }
 
-.container div{
-    margin: 0 auto;
-    text-align: center;
+header section.my_bg-color-dark {
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (min-width:
+) {
+    
 }

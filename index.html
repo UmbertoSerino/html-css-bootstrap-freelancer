@@ -13,28 +13,53 @@
     <title>Bootstrap v5.3</title>
 </head>
 <body>
-    <header>
+    <header class="my_color_header">
                          <!-- Header Black -->
-        <section class="bg-color-dark d-flex justify-content-center">
-            <div class="container row">
-                <div class="col-6">1</div>
-                <div class="col-6">2</div>
+        <section class="my_bg-color-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand">Bootstrap</a>
+                    <button class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </section>
                         <!-- Header Jumbo -->
-        <section id="jumbo" class="bg-color-green">
+        <section id="jumbo" class="my_bg-color-green">
             <div class="container">
-                <div class="row">
-                    <div class="col-6 col-md-3 col-lg-2">img</div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-2 mt-4 mb-2">
+                        <img src="./img/avatar.svg" alt="image profile male">
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-8 col-md-6">Star</div>
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-8 col-md-6">
+                        <h2 class="fs-1 py-2 text-white text-uppercase fw-bold">Start Bootstrap</h2>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-6 col-md-4">Line</div>
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-6 col-md-4">
+                        <span class="fs-1">&star;</span>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 col-md-6">Graphic</div>
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-10 col-md-6">
+                        <p class="fs-3">Graphic artist - web designer - illustrator</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -56,7 +81,7 @@
             </div>
         </section>
                             <!-- MAIN ABOUT GREEN -->
-        <section class="about bg-color-green">
+        <section class="about my_bg-color-green">
             <div class="container">
                 <div class="row">
                     <div class="col-3 col-lg-2">ABOUT</div>
@@ -89,7 +114,7 @@
         </section>
     </main>
     <footer>
-        <section class="bg-color-gray">
+        <section class="my_bg-color-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-8 col-md-4">Location</div>
@@ -99,7 +124,7 @@
             </div>
         </section>
 
-        <section class="bg-color-dark">
+        <section class="my_bg-color-dark">
             <div class="container">
                 <div class="row">
                     <div class="col-4">Copyright</div>
